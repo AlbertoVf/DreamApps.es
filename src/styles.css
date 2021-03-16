@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/fonts/montserrat";
+
+@font-face {
+    font-family: "writting";
+    src: url("assets/fonts/im-writting.ttf");
+}
+
+:root {
+    --negro: #000000; /*negro*/
+    --blanco: #ffffff; /*blanco*/
+    --gris: #b5dff0; /*gris*/
+    --rojo: #c9441b; /*rojo*/
+    --amarillo: #feed01; /*amarillo*/
+    --verde: #299549; /*verde*/
+    --azul1: #2c4870; /*azul oscuro*/
+    --azul2: #285b88; /*azul oscuro 2*/
+    --azul3: #009de0; /*azul claro*/
+    --azul4: #0a96d9; /*azul claro 2*/
+}
+
+.writting {
+    font-family: writting;
+}
+
+.titulo {
+    font-family: "Montserrat";
+    font-size: 90%;
+    font-weight: 700;
+}
+
+.medio {
+    font-family: "Montserrat";
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.peque {
+    font-family: "Montserrat";
+    font-size: 90%;
+    font-weight: 400;
+}
