@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+div {
+    display: inline;
+}
+p.h4 {
+    text-align: center;
+    font-size: 90%;
+    color: var(--azul1);
+    border-bottom: 1px solid var(--azul3);
+}
+p.h5,
+a.h5 {
+    font-size: 70%;
+    color: var(--azul2);
+    display: block;
+}

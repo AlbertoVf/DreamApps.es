@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+/*.logo {
+    margin: 5px 0;
+}*/
+.header {
+    width: 100%;
+    float: right;
+    box-shadow: 0 0 5px var(--azul2);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+/*.navgation {
+    width: 100%;
+    float: left;
+}*/
+.navgation ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+    position: relative;
+}
+.navgation ul li {
+    float: left;
+    line-height: 90px;
+}
+.navgation ul li a {
+    padding: 8px 12px 8px;
+    margin: 0 1px;
+    text-transform: capitalize;
+    color: var(--azul1);
+    color: var(--azul1);
+    position: relative;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.navgation ul li a:hover {
+    background: var(--azul1);
+    color: var(--blanco);
+    text-decoration: none;
+}
+.navgation ul li.currnt-menu-item a {
+    background: var(--azul1);
+    color: var(--blanco);
+    text-decoration: none;
+}
+.navgation ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0;
+    background: var(--blanco);
+    /*border: 1px solid var(--gris);*/
+    width: 200px;
+    border-top: 2px solid var(--azul1);
+}
+
+.navgation ul ul:before {
+    position: absolute;
+    left: 25px;
+    top: -22px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid var(--azul1);
+    content: "";
+    z-index: 9999;
+}
+.navgation ul li:hover > ul {
+    display: block;
+}
+.navgation ul ul li {
+    line-height: 20px;
+    display: block;
+    float: none;
+    padding: 0 5px;
+    position: relative;
+}
+.navgation ul ul li a {
+    padding: 5px 0px;
+    display: block;
+    margin: 0 0px;
+    border-bottom: 1px solid var(--azul2);
+    border-radius: 0;
+    text-transform: uppercase;
+    color: var(--azul1);
+}
+.navgation ul ul li a:hover {
+    background: transparent;
+    color: var(--azul1);
+    padding-left: 5px;
+}
+.navgation ul ul li ul {
+    display: none;
+    left: 100%;
+    top: 0;
+}
+.navgation ul ul li:hover > ul {
+    display: block;
+}
+.navgation ul li.mega ul {
+    width: 700px;
+    left: 0;
+}
+.navgation ul li.non-mega {
+    position: relative;
+}
+.navgation ul li.mega .mega-menu-store li {
+    width: 25%;
+    float: left;
+}
+.navgation ul li.mega .mega-menu-store li h2 {
+    margin: 0;
+    padding: 5px 0 0 0;
+    line-height: 25px;
+    border-bottom: 2px solid var(--azul1);
+    display: inline-block;
+}
+.navgation ul li.mega .mega-menu-store li a {
+    padding: 2px 0;
+}
