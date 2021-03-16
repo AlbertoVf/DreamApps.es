@@ -23,20 +23,23 @@
     font-family: writting;
 }
 
-.titulo {
+.montserrat,
+.titulo,
+.medio,
+.peque {
     font-family: "Montserrat";
+}
+.titulo {
     font-size: 90%;
     font-weight: 700;
 }
 
 .medio {
-    font-family: "Montserrat";
     font-size: 80%;
     font-weight: 600;
 }
 
 .peque {
-    font-family: "Montserrat";
     font-size: 90%;
     font-weight: 400;
 }
