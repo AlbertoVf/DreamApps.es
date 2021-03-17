@@ -10,9 +10,11 @@
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
 }
-/*.logo {
-    margin: 5px 0;
-}*/
+#logo {
+    margin: 1% 5% auto 1%;
+    width: 20%;
+    background: red;
+}
 .header {
     width: 100%;
     float: right;
