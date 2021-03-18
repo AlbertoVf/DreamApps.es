@@ -1,14 +1,21 @@
-section {
-    margin: 30% auto;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
-
 h1 {
-    text-align: center;
     font-size: 400%;
     color: var(--rojo);
 }
 h2 {
-    text-align: center;
     font-size: 200%;
     color: var(--rojo);
+}
+a {
+    color: var(--negro);
+    text-align: center;
+    font-size: 200%;
+}
+div {
+    margin: 20% auto;
 }
