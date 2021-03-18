@@ -12,11 +12,27 @@
 }
 #logo {
     margin: 1% 5% auto 1%;
-    width: 20%;
-    background: red;
+    width: 15%;
 }
+
+.izq {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    background: var(--grisclaro);
+}
+
+.der {
+    position: absolute;
+    margin: 0px 90px;
+    top: 25px;
+    right: 15px;
+    background: var(--grisclaro);
+}
+
 .header {
     width: 100%;
+    height: 10%;
     float: right;
     box-shadow: 0 0 5px var(--azul2);
     position: fixed;
@@ -24,13 +40,14 @@
     right: 0;
     z-index: 99999;
 }
+
 /*.navgation {
     width: 100%;
     float: left;
 }*/
 .navgation ul {
     margin: 0px;
-    padding: 0px;
+    padding: 1% 1% auto 25%;
     list-style: none;
     float: right;
     position: relative;
@@ -41,7 +58,7 @@
 }
 .navgation ul li a {
     padding: 8px 12px 8px;
-    margin: 0 1px;
+    margin: 0 5px;
     text-transform: capitalize;
     color: var(--azul1);
     color: var(--azul1);
@@ -119,18 +136,4 @@
 }
 .navgation ul li.non-mega {
     position: relative;
-}
-.navgation ul li.mega .mega-menu-store li {
-    width: 25%;
-    float: left;
-}
-.navgation ul li.mega .mega-menu-store li h2 {
-    margin: 0;
-    padding: 5px 0 0 0;
-    line-height: 25px;
-    border-bottom: 2px solid var(--azul1);
-    display: inline-block;
-}
-.navgation ul li.mega .mega-menu-store li a {
-    padding: 2px 0;
 }

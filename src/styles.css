@@ -10,6 +10,7 @@
     --negro: #000000; /*negro*/
     --blanco: #ffffff; /*blanco*/
     --gris: #b5dff0; /*gris*/
+    --grisclaro: #ccdce2; /*gris*/
     --rojo: #c9441b; /*rojo*/
     --amarillo: #feed01; /*amarillo*/
     --verde: #299549; /*verde*/
@@ -26,7 +27,9 @@
 .montserrat,
 .titulo,
 .medio,
-.peque {
+.peque,
+.tituloppal,
+.textoppal {
     font-family: "Montserrat";
 }
 .titulo {
@@ -42,4 +45,16 @@
 .peque {
     font-size: 90%;
     font-weight: 500;
+}
+.tituloppal {
+    font-size: 150%;
+    font-weight: 700;
+}
+.textoppal {
+    font-size: 120%;
+    font-weight: 500;
+}
+
+html {
+    background: var(--grisclaro);
 }
