@@ -10,7 +10,6 @@
     --negro: #000000; /*negro*/
     --blanco: #ffffff; /*blanco*/
     --gris: #b5dff0; /*gris*/
-    --grisclaro: #ccdce2; /*gris*/
     --rojo: #c9441b; /*rojo*/
     --amarillo: #feed01; /*amarillo*/
     --verde: #299549; /*verde*/
@@ -24,37 +23,103 @@
     font-family: writting;
 }
 
-.montserrat,
-.titulo,
-.medio,
-.peque,
-.tituloppal,
-.textoppal {
+.montserrat {
     font-family: "Montserrat";
 }
+
+.bold {
+    font-weight: 700;
+}
+
+.normal {
+    font-weight: 600;
+}
+
+.fine {
+    font-weight: 500;
+}
+
+.c-negro {
+    color: var(--negro);
+}
+.b-negro {
+    background-color: var(--negro);
+}
+.c-blanco {
+    color: var(--blanco);
+}
+.b-blanco {
+    background-color: var(--blanco);
+}
+.c-gris {
+    color: var(--gris);
+}
+.b-gris {
+    background-color: var(--gris);
+}
+.c-rojo {
+    color: var(--rojo);
+}
+.b-rojo {
+    background-color: var(--rojo);
+}
+.c-amarillo {
+    color: var(--amarillo);
+}
+.b-amarillo {
+    background-color: var(--amarillo);
+}
+.c-verde {
+    color: var(--verde);
+}
+.b-verde {
+    background-color: var(--verde);
+}
+.c-azul {
+    color: var(--azul);
+}
+.b-azul {
+    background-color: var(--azul);
+}
+.c-azul1 {
+    color: var(--azul1);
+}
+.b-azul1 {
+    background-color: var(--azul1);
+}
+.c-azul2 {
+    color: var(--azul2);
+}
+.b-azul2 {
+    background-color: var(--azul2);
+}
+.c-azul3 {
+    color: var(--azul3);
+}
+.b-azul3 {
+    background-color: var(--azul3);
+}
+.c-azul4 {
+    color: var(--azul4);
+}
+.b-azul4 {
+    background-color: var(--azul4);
+}
+
 .titulo {
     font-size: 90%;
     font-weight: 700;
+    font-family: "Montserrat";
 }
 
 .medio {
     font-size: 80%;
     font-weight: 600;
+    font-family: "Montserrat";
 }
 
 .peque {
     font-size: 90%;
     font-weight: 500;
-}
-.tituloppal {
-    font-size: 150%;
-    font-weight: 700;
-}
-.textoppal {
-    font-size: 120%;
-    font-weight: 500;
-}
-
-html {
-    background: var(--grisclaro);
+    font-family: "Montserrat";
 }
