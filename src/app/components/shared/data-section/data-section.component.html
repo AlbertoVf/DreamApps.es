@@ -1,0 +1,8 @@
+<div class="card w-100 mb-5" *ngFor="let item of items">
+    <div class="card-body">
+        <h5 class="card-title h1 titulo ml-5 mr-5">{{ item.titulo }}</h5>
+        <p class="card-text-h4-montserrat" *ngFor="let p of item.parrafos">
+            {{ p }}
+        </p>
+    </div>
+</div>
