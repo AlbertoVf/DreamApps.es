@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Item } from '../data/interfaces';
 
 @Component({
     selector: 'app-item-data',
@@ -12,16 +13,4 @@ export class ItemDataComponent implements OnInit {
     ngOnInit(): void {
     }
 
-}
-class Item {
-    static id: number = 0;
-    submenu: String = "";
-    imagen: String = "../../../../assets/img/items/" + this.submenu + ".png";
-    texto: String[]
-
-    constructor(submenu, texto) {
-        Item.id++;
-        this.submenu = submenu;
-        this.texto = texto;
-    }
 }
