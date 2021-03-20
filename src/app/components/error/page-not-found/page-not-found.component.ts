@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./page-not-found.component.css'],
 })
 export class PageNotFoundComponent implements OnInit {
-    constructor() {}
+    constructor() { }
 
     /**
      * Al cargar la página comprueba si existe el error
@@ -17,6 +17,9 @@ export class PageNotFoundComponent implements OnInit {
         if (this.seleccionar('#error')) {
             this.ocultar('footer');
             this.ocultar('header');
+        } else {
+            this.mostrar('footer');
+            this.mostrar('header');
         }
     }
 
@@ -29,6 +32,14 @@ export class PageNotFoundComponent implements OnInit {
         e.style.display = 'none';
     }
 
+    /**
+     * Busca en la estructura HTML y muestra el elemento
+     * pasado como parametro.
+     */
+    mostrar(query: any): void {
+        const e = document.querySelector(query);
+        e.style.display = 'block';
+    }
     /**
      * Comprueba si un elemento HTML existe es la estructura,
      * su valor es diferente de null.

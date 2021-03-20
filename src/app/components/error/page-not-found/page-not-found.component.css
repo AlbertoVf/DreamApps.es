@@ -1,21 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 h1 {
-    font-size: 400%;
-    color: var(--rojo);
+    font-size: 600%;
 }
 h2 {
-    font-size: 200%;
-    color: var(--rojo);
+    font-size: 300%;
 }
 a {
-    color: var(--negro);
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
 }
 div {
-    margin: 20% auto;
+    margin: 15% auto;
 }
