@@ -1,4 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
 @import "assets/fonts/montserrat";
 
 @font-face {
@@ -9,7 +8,7 @@
 :root {
     --negro: #000000; /*negro*/
     --blanco: #ffffff; /*blanco*/
-    --gris: #b5dff0; /*gris*/
+    --gris: #fcfcfc; /*gris*/
     --rojo: #c9441b; /*rojo*/
     --amarillo: #feed01; /*amarillo*/
     --verde: #299549; /*verde*/
@@ -18,7 +17,10 @@
     --azul3: #009de0; /*azul claro*/
     --azul4: #0a96d9; /*azul claro 2*/
 }
-
+a:hover {
+    color: var(--verde) !important;
+    font-weight: 700;
+}
 .writting {
     font-family: writting;
 }
@@ -104,22 +106,4 @@
 }
 .b-azul4 {
     background-color: var(--azul4);
-}
-
-.titulo {
-    font-size: 90%;
-    font-weight: 700;
-    font-family: "Montserrat";
-}
-
-.medio {
-    font-size: 80%;
-    font-weight: 600;
-    font-family: "Montserrat";
-}
-
-.peque {
-    font-size: 90%;
-    font-weight: 500;
-    font-family: "Montserrat";
 }
