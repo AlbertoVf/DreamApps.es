@@ -1,25 +1,7 @@
-footer {
-    display: flex;
-    justify-content: space-between;
-}
-div {
-    display: inline;
-}
-p.h4 {
-    text-align: center;
-    font-size: 100%;
+p {
     color: var(--azul1);
-    font-weight: 600;
-    padding-bottom: 1%;
-    border-bottom: 1px solid var(--azul3);
+    border-bottom: 1px solid var(--azul4);
 }
-p.h5,
-a.h5 {
-    font-size: 80%;
+a {
     color: var(--azul2);
-    display: block;
-}
-i.writting {
-    font-size: 120%;
-    padding-right: 2%;
 }

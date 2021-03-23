@@ -1,10 +1,12 @@
-<div class="card w-100 mb-5" *ngFor="let item of items">
+<div class="card w-100 mb-5 rounded-lg borde" *ngFor="let item of items">
     <div class="card-body">
-        <h5 class="card-title h1 ml-5 mr-5 titulo normal c-azul1 montserrat">
+        <h2
+            class="card-title h1 mx-1 pb-2 text-wrap normal c-azul1 montserrat"
+        >
             {{ item.titulo }}
-        </h5>
+        </h2>
         <p
-            class="card-text h5 mt-2 mb-2 text-justify montserrat c-azul2"
+            class="card-text h5 my-sm-5 my-md-5 my-xl-2 my-lg-2 text-wrap fine montserrat c-azul2"
             *ngFor="let p of item.parrafos"
         >
             {{ p }}
