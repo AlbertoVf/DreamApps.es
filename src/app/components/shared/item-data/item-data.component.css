@@ -1,0 +1,11 @@
+img{
+    height:20rem;
+}
+.card-title {
+    border-bottom: 1px solid var(--azul4);
+}
+
+.card {
+    width:90%;
+    border: 1px solid var(--azul4);
+}
