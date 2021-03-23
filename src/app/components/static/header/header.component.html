@@ -1,254 +1,364 @@
-<!-- <script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"
-></script>
-<script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"
-></script>
-<script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"
-></script> -->
-
-<header id="header" class="fixed-top">
-<<<<<<< HEAD
-    <div class="container d-flex align-items-center">
-        <a routerLink="#" class="logo mr-auto"
-            ><img
-                id="logo"
-                src="./assets/logo/dream-apps.png"
-                class="img-fluid"
-        /></a>
-
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
-                <li class="drop-down">
-                    <a class="bold" routerLink="#">SOLUCIONES</a>
-=======
-    <div class="container">
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<header id="header" class="fixed-top4">
+    <div class="container-fluid row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <!-- logo -->
-            <a href="#" class="logo mr-auto"
-            ><img src="./assets/logo/dream-apps.png" alt="" class="img-fluid"
-            /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-  <div class="collapse navbar-collapse" id="main_nav">
-        <!-- menú -->
-            <ul class="navbar-nav">
-                <li class="nav-item drop-down">
-                    <p class="bold dropdown-toggle" data-toggle="dropdown">SOLUCIONES</p>
->>>>>>> ff98977e5b82ddef8661fe1a9a20cf9b738c8101
-                    <ul>
-                        <li class="drop-down">
-                            <a routerLink="servicios-informaticos"
-                                >SERVICIOS INFORMÁTICOS</a
-                            >
-                            <ul>
-                                <li>
-<<<<<<< HEAD
-                                    <a
-                                        routerLink="servicios-informaticos/redes-sistemas"
-                                        >Redes y Sistemas</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        routerLink="servicios-informaticos/dominios"
-                                        >Dominios</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        routerLink="servicios-informaticos/housing"
-                                        >Housing</a
-                                    >
-                                </li>
-                                <li>
-                                    <a routerLink="servicios-informaticos/ssl"
-                                        >Certificados SSL</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        routerLink="servicios-informaticos/backup-remoto"
-                                        >Backup</a
-                                    >
-                                </li>
-=======
-                                    <a class="h6" href="#">Redes y Sistemas</a>
-                                </li>
-                                <li><a href="#">Dominios</a></li>
-                                <li><a href="#">Housing</a></li>
-                                <li><a href="#">Certificado</a></li>
-                                <li><a href="#">Backup</a></li>
->>>>>>> ff98977e5b82ddef8661fe1a9a20cf9b738c8101
-                            </ul>
-                        </li>
+            <div class="logo">
+                <a href="home" class="logo mr-auto"
+                    ><img
+                        src="./assets/logo/dream-apps.png"
+                        alt="logo"
+                        class="img-fluid h-100"
+                /></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#main_nav"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <!-- menú -->
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a
+                            class="h5 mx-4 nav-link dropdown-toggle"
+                            href="#"
+                            data-toggle="dropdown"
+                            >SOLUCIONES</a
+                        >
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a
+                                    class="dropdown-item"
+                                    routerLink="servicios-informaticos"
+                                    >SERVICIOS INFORMÁTICOS</a
+                                >
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            routerLink="servicios-informaticos/redes-sistemas"
+                                            >Redes y Sistemas</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            routerLink="servicios-informaticos/dominios"
+                                            >Dominios</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            routerLink="servicios-informaticos/housing"
+                                            >Housing</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            routerLink="servicios-informaticos/ssl"
+                                            >Certificado</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            routerLink="servicios-informaticos/backup-remoto"
+                                            >Backup</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
 
-                        <li class="drop-down">
-                            <a routerLink="software-gestion"
-                                >SOFTWARE DE GESTIÓN</a
-                            >
-                            <ul>
-                                <li>
-                                    <a
-                                        routerLink="software-gestion/erp-business"
-                                        >Business</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        routerLink="software-gestion/erp-facturacion"
-                                        >Facturación</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        routerLink="software-gestion/tpv-comercio"
-                                        >Comercio</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        routerLink="software-gestion/tpv-hosteleria"
-                                        >Hostelería</a
-                                    >
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                            <li class="dropdown-item">
+                                <a
+                                    class="dropdown-item"
+                                    routerLink="software-gestion"
+                                    >SOFTWARE DE GESTIÓN
+                                </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            routerLink="software-gestion/erp-business"
+                                            >Business</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            routerLink="software-gestion/erp-facturacion"
+                                            >Facturación</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            routerLink="software-gestion/tpv-comercio"
+                                            >Comercio</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            routerLink="software-gestion/tpv-hosteleria"
+                                            >Hostelería</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="drop-down">
-                    <a class="bold" routerLink="">CASH GUARD</a>
-                    <ul>
-                        <li class="drop-down">
-                            <a routerLink="#">PRODUCTOS</a>
-                            <ul>
-                                <li><a routerLink="#">CashGuard Premium</a></li>
-                                <li><a routerLink="#">Unico</a></li>
-                                <li><a routerLink="#">Compact</a></li>
-                                <li><a routerLink="#">Renting</a></li>
-                                <li><a routerLink="#">Click & Collect</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down">
-                            <a routerLink="#">SOPORTE</a>
-                            <ul>
-                                <li><a routerLink="#">Soporte Basic</a></li>
-                                <li><a routerLink="#">Soporte Advanced</a></li>
-                                <li><a routerLink="#">Soporte Premium</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down">
-                            <a routerLink="#">SECTORES</a>
-                            <ul>
-                                <li><a routerLink="#">Hostelería</a></li>
-                                <li>
-                                    <a routerLink="#">Estaciones de servicio</a>
-                                </li>
-                                <li><a routerLink="#">Farmacias</a></li>
-                                <li><a routerLink="#">Retail</a></li>
-                                <li><a routerLink="#">Estancos</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="h5 mx-4 nav-link dropdown-toggle"
+                            href="#"
+                            data-toggle="dropdown"
+                            >CASH GUARD</a
+                        >
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a class="dropdown-item" href="#">PRODUCTOS</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >CashGuard Premium</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Unico</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Compact</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Renting</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Click & Collect</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-item" href="#">SOPORTE</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Soporte Basic</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Soporte Advanced</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Soporte Premium</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-item" href="#">SECTORES</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Hostelería</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Estaciones de servicio</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Farmacias</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Retail</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Estancos</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="drop-down">
-                    <a class="bold" routerLink="#">INTERNET Y MARKETING</a>
-                    <ul>
-                        <li class="drop-down">
-                            <a routerLink="#">DESARROLLO WEB A MEDIDA</a>
-                            <ul>
-                                <li>
-                                    <a routerLink="#"
-                                        >Implantación de Software</a
-                                    >
-                                </li>
-                                <li>
-                                    <a routerLink="#"
-                                        >Aplicaciones Web medida</a
-                                    >
-                                </li>
-                                <li><a routerLink="#">Web Corporativa</a></li>
-                                <li><a routerLink="#">Diseño Gráfico</a></li>
-                                <li><a routerLink="#">Mantenimiento</a></li>
-                            </ul>
-                        </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="h5 mx-4 nav-link dropdown-toggle"
+                            href="#"
+                            data-toggle="dropdown"
+                            >INTERNET Y MARKETING</a
+                        >
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a class="dropdown-item" href="#"
+                                    >DESARROLLO WEB A MEDIDA</a
+                                >
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Implantación de Software</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Aplicaciones Web medida</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Web Corporativa</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Diseño Gráfico</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Mantenimiento</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
 
-                        <li class="drop-down">
-                            <a class="h4 bold" routerLink="#"
-                                >MARKETING ONLINE</a
-                            >
-                            <ul>
-                                <li><a routerLink="#">SEO / SEM</a></li>
-                                <li><a routerLink="#">Social Media</a></li>
-                                <li><a routerLink="#">Analítica Web</a></li>
-                                <li><a routerLink="#">Planes Marketing</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-item" href="#"
+                                    >MARKETING ONLINE</a
+                                >
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >SEO / SEM</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Social Media</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Analítica Web</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Planes Marketing</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li class="drop-down">
-                    <a class="bold" routerLink="">SERVICIO TÉCNICO</a>
-                    <ul>
-                        <li class="drop-down">
-                            <a routerLink="#">SERVICIO TÉCNICO</a>
-                            <ul>
-                                <li>
-                                    <a routerLink="#">Auditoría Informática</a>
-                                </li>
-                                <li>
-                                    <a routerLink="#"
-                                        >Instalación de Redes, Wifi, VPN</a
-                                    >
-                                </li>
-                                <li>
-                                    <a routerLink="#"
-                                        >Soluciones Cloud y Teletrabajo</a
-                                    >
-                                </li>
-                                <li>
-                                    <a routerLink="#">Recuperación de Datos</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="drop-down">
-                            <a routerLink="#">MANTENIMIENTO</a>
-                            <ul>
-                                <li>
-                                    <a routerLink="#"
-                                        >Planes de Mantenimiento</a
-                                    >
-                                </li>
-                                <li><a routerLink="#">Soporte Remoto</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down">
-                            <a routerLink="#">SEGURIDAD INFORMÁTICA</a>
-                            <ul>
-                                <li><a routerLink="#">Distribuidor ESET</a></li>
-                                <li><a routerLink="#">Firewall</a></li>
-                                <li>
-                                    <a routerLink="#">Seguridad de Sistemas</a>
-                                </li>
-                                <li>
-                                    <a routerLink="#">Copias de Seguridad</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="h5 mx-4 nav-link dropdown-toggle"
+                            href="#"
+                            data-toggle="dropdown"
+                            >INTERNET Y MARKETING</a
+                        >
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a class="dropdown-item" href="#"
+                                    >SERVICIO TÉCNICO</a
+                                >
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Auditoría Informática</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Instalación de Redes, Wifi, VPN</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Soluciones Cloud y Teletrabajo</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Recuperación de Datos</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-item" href="#"
+                                    >MANTENIMIENTO</a
+                                >
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Planes de Mantenimiento</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Soporte Remoto</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-item" href="#"
+                                    >SEGURIDAD INFORMÁTICA</a
+                                >
+                                <ul class="submenu dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Distribuidor ESET</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Firewall</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Seguridad de Sistemas</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Copias de Seguridad</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <!-- .nav-menu -->
     </div>

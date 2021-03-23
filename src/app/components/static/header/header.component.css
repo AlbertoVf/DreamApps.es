@@ -1,6 +1,20 @@
-#header .logo {
+.logo {
     margin: 1% 5% auto 1%;
     width: 15%;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    /* z-index: 1000; */
+    background-color: white;
+    margin: 0;
+    float: center;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+    width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -30,10 +44,20 @@
         left: auto;
     }
 
-    .dropdown-menu > li:hover {
+    /* .dropdown-menu > li:hover {
         background-color: #f1f1f1;
-    }
+    } */
     .dropdown-menu > li:hover > .submenu {
         display: block;
+    }
+
+    .nav-link {
+        color: var(--azul1);
+    }
+    a {
+        color: var(--azul1);
+    }
+    a:hover {
+        color: var(--azul3);
     }
 }
