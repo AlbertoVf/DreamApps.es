@@ -1,11 +1,11 @@
-/* #header.header-scrolled {
+#header.header-scrolled {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 12px 0;
-}*/
+}
 
-/* #header.header-inner-pages {
+#header.header-inner-pages {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-} */
+}
 
 #header .logo img {
     margin: 1% 5% auto 1%;
@@ -56,7 +56,7 @@
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 12px 0;
 } */
-/*
+
 #header .logo {
     font-size: 32px;
     margin: 0;
@@ -68,7 +68,7 @@
 
 #header .logo a {
     color: #5f687b;
-} */
+}
 
 @media (max-width: 991px) {
     #header {
@@ -152,7 +152,7 @@
 }
 
 .nav-menu .drop-down > a:after {
-    content: "";
+    content: "";
     font-family: writting;
     padding-left: 5px;
 }
@@ -173,13 +173,13 @@
 }
 
 .nav-menu .drop-down .drop-down > a:after {
-    content: "";
+    content: "";
     font-family: writting;
     position: absolute;
     right: 15px;
 }
 
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
     .nav-menu .drop-down .drop-down ul {
         left: -90%;
     }
@@ -189,9 +189,9 @@
     .nav-menu .drop-down .drop-down > a:after {
         content: "\ea9d";
     }
-}
+} */
 
-/* Get Startet Button
+/* Get Startet Button*/
 .get-started-btn {
     margin-left: 25px;
     background: #fff;
@@ -216,10 +216,11 @@
         margin: 0 48px 0 0;
         padding: 6px 18px;
     }
-} */
+}
+*/
 
 /* Mobile Navigation */
-/* .mobile-nav-toggle {
+.mobile-nav-toggle {
     position: fixed;
     top: 16px;
     right: 15px;
@@ -246,7 +247,7 @@
     left: 15px;
     z-index: 9999;
     overflow-y: auto;
-    background: #fff;
+    background: rgb(245, 226, 226);
     transition: ease-in-out 0.2s;
     opacity: 0;
     visibility: hidden;
@@ -277,15 +278,16 @@
 }
 
 .mobile-nav .drop-down > a:after {
-    content: "\ea99";
-    font-family: IcoFont;
+    content: "";
+    font-family: writting;
     padding-left: 10px;
     position: absolute;
     right: 15px;
 }
 
 .mobile-nav .active.drop-down > a:after {
-    content: "\eaa1";
+    content: "";
+    font-family: writting;
 }
 
 .mobile-nav .drop-down > a {
@@ -325,4 +327,4 @@
 
 .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
-} */
+}
