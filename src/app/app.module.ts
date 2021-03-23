@@ -11,6 +11,14 @@ import { DataSectionComponent } from './components/shared/data-section/data-sect
 import { ItemDataComponent } from './components/shared/item-data/item-data.component';
 import { ServiciosInformaticosComponent } from './components/pages/servicios-informaticos/servicios-informaticos.component';
 import { SoftwareGestionComponent } from './components/pages/software-gestion/software-gestion.component';
+import { CashGuardComponent } from './components/pages/cash-guard/cash-guard.component';
+import { SoporteComponent } from './components/pages/soporte/soporte.component';
+import { SectoresComponent } from './components/pages/sectores/sectores.component';
+import { DesarrolloMedidaComponent } from './components/pages/desarrollo-medida/desarrollo-medida.component';
+import { MarketingOnlineComponent } from './components/pages/marketing-online/marketing-online.component';
+import { ServicioTecnicoComponent } from './components/pages/servicio-tecnico/servicio-tecnico.component';
+import { MantenimientoComponent } from './components/pages/mantenimiento/mantenimiento.component';
+import { SeguridadInformaticaComponent } from './components/pages/seguridad-informatica/seguridad-informatica.component';
 
 @NgModule({
     declarations: [
@@ -23,6 +31,14 @@ import { SoftwareGestionComponent } from './components/pages/software-gestion/so
         ItemDataComponent,
         ServiciosInformaticosComponent,
         SoftwareGestionComponent,
+        CashGuardComponent,
+        SoporteComponent,
+        SectoresComponent,
+        DesarrolloMedidaComponent,
+        MarketingOnlineComponent,
+        ServicioTecnicoComponent,
+        MantenimientoComponent,
+        SeguridadInformaticaComponent,
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
