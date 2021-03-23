@@ -45,7 +45,7 @@ export var serviciosInformaticos: ISubmenu[] = [
     },
 ];
 
-export var softwaregestion: ISubmenu[] = [
+export var softwareGestion: ISubmenu[] = [
     {
         id: 1,
         titulo: 'ERP Business',
@@ -84,7 +84,7 @@ export var softwaregestion: ISubmenu[] = [
     },
 ];
 
-export var productos: ISubmenu[] = [
+export var cashGuard: ISubmenu[] = [
     {
         id: 1,
         titulo: 'CashGuard Premium',
@@ -212,7 +212,7 @@ export var sectores: ISubmenu[] = [
     },
 ];
 
-export var desarrolloamedida: ISubmenu[] = [
+export var desarrolloMedida: ISubmenu[] = [
     {
         id: 1,
         titulo: 'Implantación de Software',
@@ -257,7 +257,7 @@ export var desarrolloamedida: ISubmenu[] = [
     },
 ];
 
-export var marketingonline: ISubmenu[] = [
+export var marketingOnline: ISubmenu[] = [
     {
         id: 1,
         titulo: 'SEO / SEM',
@@ -295,7 +295,7 @@ export var marketingonline: ISubmenu[] = [
     },
 ];
 
-export var serviciotecnico: ISubmenu[] = [
+export var servicioTecnico: ISubmenu[] = [
     {
         id: 1,
         titulo: 'Auditoría Informática',
@@ -351,7 +351,7 @@ export var mantenimiento: ISubmenu[] = [
     },
 ];
 
-export var seguridadinformatica: ISubmenu[] = [
+export var seguridadInformatica: ISubmenu[] = [
     {
         id: 1,
         titulo: 'Distribuidor ESET',
