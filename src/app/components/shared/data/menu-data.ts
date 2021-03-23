@@ -77,7 +77,7 @@ export var softwaregestion: ISubmenu[] = [
     {
         id: 4,
         titulo: 'TPV Hostelería',
-        imagen: './assets/img/items/tpv-hostelería.png',
+        imagen: './assets/img/items/tpv-hosteleria.png',
         parrafos: [
             'En DreamsApp somos especialistas en la implantación de Terminales de Punto de Venta (TPV). Nosotros nos encargamos de todo, desde el asesoramiento inicial para ver cuál es la mejor opción hardware y software; pasando por la instalación, configuración, puesta en marcha y terminando con un seguimiento postventa para asegurar el correcto funcionamiento del sistema.',
             'Programa de gestión para hostelería personalizable: diseñe su establecimiento de una forma intuitiva y sencilla para visualizar tanto la ocupación como el estado de las mesas en su restaurante. Añade modificadores a tus productos, TPV con gestión de menús para restaurantes, cree y personalize sus menús, software para restaurante con conexión móvil, mantenga sus clientes conectados, programa con gestión de comandas, gestione los pedidos en cocina, programa de reservas (Reservar/Asignar mesa), tome pedidos en restaurante y en las mesas, gestione stocks, carta electrónica, pedidos Online, envíos a domicilio…',

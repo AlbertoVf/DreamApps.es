@@ -9,6 +9,8 @@ import { PageNotFoundComponent } from './components/error/page-not-found/page-no
 import { HomeComponent } from './components/pages/home/home.component';
 import { DataSectionComponent } from './components/shared/data-section/data-section.component';
 import { ItemDataComponent } from './components/shared/item-data/item-data.component';
+import { ServiciosInformaticosComponent } from './components/pages/servicios-informaticos/servicios-informaticos.component';
+import { SoftwareGestionComponent } from './components/pages/software-gestion/software-gestion.component';
 
 @NgModule({
     declarations: [
@@ -19,6 +21,8 @@ import { ItemDataComponent } from './components/shared/item-data/item-data.compo
         HomeComponent,
         DataSectionComponent,
         ItemDataComponent,
+        ServiciosInformaticosComponent,
+        SoftwareGestionComponent,
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
