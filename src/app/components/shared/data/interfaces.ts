@@ -4,7 +4,7 @@ export interface IHome {
 }
 export interface ISubmenu {
     id: number;
-    submenu: String;
+    titulo: String;
     imagen: String;
-    texto: String[];
+    parrafos: String[];
 }
