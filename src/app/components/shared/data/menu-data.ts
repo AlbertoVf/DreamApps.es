@@ -121,7 +121,7 @@ export var cashGuard: ISubmenu[] = [
     {
         id: 5,
         titulo: 'Click & Collect',
-        imagen: './assets/img/items/click&collect.png',
+        imagen: './assets/img/items/clic&collect.png',
         parrafos: [
             'Recoja su pedido en menos de un minuto! La solución Click & Collect de StrongPoint ofrece una solución fácil y rápida para la compra de alimentos. Le permite comprar online y recoger los alimentos sin entrar a la tienda o esperar al horario de apertura de la misma. Somos el único sistema que le permite controlar toda la logística de su e-commerce, desde la recogida hasta la entrega al cliente. En tiempos en los que las entregas sin contacto son cada vez más necesarias, es aún más importante asegurarse de cumplir con las expectativas del cliente.',
         ],
@@ -189,7 +189,7 @@ export var sectores: ISubmenu[] = [
     {
         id: 3,
         titulo: 'Farmacias',
-        imagen: './assets/img/items/farmacias.png',
+        imagen: './assets/img/items/farmacia.png',
         parrafos: [
             'CashGuard es la solución perfecta para las horas punta en su farmacia. Asegúrate que tus clientes reciben el cambio correcto y sin largas filas de espera.',
         ],
@@ -216,7 +216,7 @@ export var desarrolloMedida: ISubmenu[] = [
     {
         id: 1,
         titulo: 'Implantación de Software',
-        imagen: './assets/img/items/implantación-software.png',
+        imagen: './assets/img/items/implantacion-software.png',
         parrafos: [
             'Nuestra filosofía de trabajo, nos permite aplicar procesos industriales, sostenibles y humanos en el desarrollo de software y sistemas TI, buscando maximizar el valor que entregamos a nuestros clientes. En DreamsApp realizamos implementaciones de soluciones de IT planificadas y estructuradas con una monitorización desde el momento inicial hasta la puesta en marcha de la solución.',
         ],
@@ -241,7 +241,7 @@ export var desarrolloMedida: ISubmenu[] = [
     {
         id: 4,
         titulo: 'Diseño Gráfico',
-        imagen: './assets/img/items/diseño-gráfico.png',
+        imagen: './assets/img/items/diseño-grafico.png',
         parrafos: [
             'Le ayudamos a proyectar una imagen propia, inconfundible que potencie la personalidad del producto o servicio, generar confianza y lograr la fidelización de usuarios y consumidores.',
             'Nuestro equipo de diseño gráfico tiene una larga experiencia en el diseño de múltiples soportes de comunicación: imagen corporativa, logotipos, papelería comercial, flyers, etiquetas, tarjetas de visita, tarjetas identificativas, etc...',
@@ -250,7 +250,7 @@ export var desarrolloMedida: ISubmenu[] = [
     {
         id: 5,
         titulo: 'Mantenimiento',
-        imagen: './assets/img/items/diseño-gráfico.png',
+        imagen: './assets/img/items/mantenimiento.png',
         parrafos: [
             'En DreamsApps, creemos que cualquier sistema, sea del tamaño que sea, necesita de atención y de manos cualificadas que lo administren. Nuestro servicio de mantenimiento informático contempla la revisión de todos y cada uno de los dispositivos de una red, desde los dispositivos de comunicaciones, pasando por las impresoras y, como no, las estaciones de trabajo, tanto Windows como Mac, y los servidores, ya sean físicos o virtuales. En este recorrido, prestamos especial atención, a las importantísimas copias de seguridad.',
         ],
@@ -308,7 +308,7 @@ export var servicioTecnico: ISubmenu[] = [
     {
         id: 2,
         titulo: 'Instalación de Redes, Wifi, VPN',
-        imagen: './assets/img/items/instalación-red-wifi-vpn.png',
+        imagen: './assets/img/items/instalacion-red-wifi-vpn.png',
         parrafos: [
             'DreamApp le ofrece todo tipo instalaciones de Redes Privadas Virtuales (VPN) para conectar sus delegaciones como si fueran una misma y, ahorrar costes de comunicaciones, de software, de mantenimiento, de licencias, etc. . . al tener todos sus equipos en una misma red. También podemos ofrecerle la posibilidad de conexión remota desde su casa u otro domicilio al equipo de su oficina, para poder acceder como si estuviera físicamente allí.',
         ],
