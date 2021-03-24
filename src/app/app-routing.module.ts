@@ -16,7 +16,6 @@ import { SoporteComponent } from './components/pages/soporte/soporte.component';
 export const routes: Routes = [
     { path: 'home', pathMatch: 'full', component: HomeComponent },
     { path: '', pathMatch: 'full', redirectTo: 'home' },
-
     {
         path: 'servicios-informaticos',
         pathMatch: 'full',
@@ -47,7 +46,6 @@ export const routes: Routes = [
         pathMatch: 'full',
         redirectTo: 'servicios-informaticos#5',
     },
-
     {
         path: 'software-gestion',
         pathMatch: 'full',
@@ -73,7 +71,6 @@ export const routes: Routes = [
         pathMatch: 'full',
         redirectTo: 'software-gestion#4',
     },
-
     { path: 'cash-guard', pathMatch: 'full', component: CashGuardComponent },
     {
         path: 'cash-guard/premium',
@@ -96,12 +93,10 @@ export const routes: Routes = [
         pathMatch: 'full',
         redirectTo: 'cash-guard#5',
     },
-
     { path: 'soporte', pathMatch: 'full', component: SoporteComponent },
     { path: 'soporte/basic', pathMatch: 'full', redirectTo: 'soporte#1' },
     { path: 'soporte/advanced', pathMatch: 'full', redirectTo: 'soporte#2' },
     { path: 'soporte/premium', pathMatch: 'full', redirectTo: 'soporte#3' },
-
     { path: 'sectores', pathMatch: 'full', component: SectoresComponent },
     {
         path: 'sectores/hosteleria',
@@ -116,7 +111,6 @@ export const routes: Routes = [
     { path: 'sectores/farmacias', pathMatch: 'full', redirectTo: 'sectores#3' },
     { path: 'sectores/retails', pathMatch: 'full', redirectTo: 'sectores#4' },
     { path: 'sectores/estancos', pathMatch: 'full', redirectTo: 'sectores#5' },
-
     {
         path: 'desarrollo-medida',
         pathMatch: 'full',
@@ -147,7 +141,6 @@ export const routes: Routes = [
         pathMatch: 'full',
         redirectTo: 'desarrollo-medida#5',
     },
-
     {
         path: 'marketing-online',
         pathMatch: 'full',
@@ -173,8 +166,6 @@ export const routes: Routes = [
         pathMatch: 'full',
         redirectTo: 'marketing-online#4',
     },
-
-    ,
     {
         path: 'servicio-tecnico',
         pathMatch: 'full',
@@ -200,7 +191,6 @@ export const routes: Routes = [
         pathMatch: 'full',
         redirectTo: 'servicio-tecnico#4',
     },
-
     {
         path: 'mantenimiento',
         pathMatch: 'full',
@@ -216,7 +206,6 @@ export const routes: Routes = [
         pathMatch: 'full',
         redirectTo: 'mantenimiento#2',
     },
-
     {
         path: 'seguridad-informatica',
         pathMatch: 'full',
