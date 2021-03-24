@@ -3,5 +3,12 @@ p {
     border-bottom: 1px solid var(--azul4);
 }
 a {
-    color: var(--azul2);
+    color: var(--rojo);
+}
+.borde {
+    border-right: 2px solid var(--azul2);
+    border-left: 2px solid var(--azul2);
+}
+footer {
+    background-color: var(--gris);
 }

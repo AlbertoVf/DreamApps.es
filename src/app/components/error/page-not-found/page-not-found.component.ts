@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./page-not-found.component.css'],
 })
 export class PageNotFoundComponent implements OnInit {
-    constructor() { }
+    constructor() {}
 
     /**
      * Al cargar la página comprueba si existe el error
@@ -14,13 +14,13 @@ export class PageNotFoundComponent implements OnInit {
      * error se visualice en toda la pantalla.
      */
     ngOnInit(): void {
-        if (this.seleccionar('#error')) {
-            this.ocultar('footer');
-            this.ocultar('header');
-        } else {
-            this.mostrar('footer');
-            this.mostrar('header');
-        }
+        // if (this.seleccionar('#error')) {
+        //     this.ocultar('footer');
+        //     this.ocultar('header');
+        // } else {
+        //     this.mostrar('footer');
+        //     this.mostrar('header');
+        // }
     }
 
     /**
