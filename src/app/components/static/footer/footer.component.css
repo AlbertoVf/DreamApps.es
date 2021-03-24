@@ -3,7 +3,7 @@ p {
     border-bottom: 1px solid var(--azul4);
 }
 a {
-    color: var(--rojo);
+    color: var(--azul2);
 }
 .borde {
     border-right: 2px solid var(--azul2);

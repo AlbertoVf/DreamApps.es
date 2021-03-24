@@ -1,27 +1,29 @@
 <header id="header" class="fixed-top">
-    <div class="container-fluid row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+    <div class="container-fluid">
+        <nav
+            class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-faded mx-auto"
+        >
             <!-- logo -->
-            <div>
+            <div class="w-25 mx-auto">
                 <a routerLink="home"
                     ><img
-                        class="logo mr-auto"
+                        class="w-75"
                         src="./assets/logo/dream-apps.png"
                         alt="logo"
                 /></a>
                 <!-- CAMBIO -->
                 <button
-                    class="navbar-toggler"
+                    class="navbar-toggler w-25 align-right"
                     type="button"
                     data-toggle="collapse"
                     data-target="#main_nav"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon text-wrap"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" id="main_nav">
+            <div class="collapse navbar-collapse w-75" id="main_nav">
                 <!-- menú -->
-                <ul class="navbar-nav navbar-right pull-xs-right">
+                <ul class="navbar-nav">
                     <!-- menu soluciones -->
                     <li class="nav-item dropdown">
                         <p
@@ -31,8 +33,11 @@
                             SOLUCIONES
                         </p>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">
+                            <li>
+                                <p
+                                    class="dropdown-item"
+                                    routerLink="servicios-informaticos"
+                                >
                                     SERVICIOS INFORMÁTICOS
                                 </p>
                                 <ul class="submenu dropdown-menu">
@@ -74,8 +79,13 @@
                                 </ul>
                             </li>
 
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">SOFTWARE DE GESTIÓN</p>
+                            <li>
+                                <p
+                                    class="dropdown-item"
+                                    routerLink="software-gestion"
+                                >
+                                    SOFTWARE DE GESTIÓN
+                                </p>
                                 <ul class="submenu dropdown-menu">
                                     <li>
                                         <a
@@ -119,8 +129,13 @@
                             CASH GUARD
                         </p>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">PRODUCTOS</p>
+                            <li>
+                                <p
+                                    class="dropdown-item"
+                                    routerLink="cash-guard"
+                                >
+                                    PRODUCTOS
+                                </p>
                                 <ul class="submenu dropdown-menu">
                                     <li>
                                         <a
@@ -159,8 +174,10 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">SOPORTE</p>
+                            <li>
+                                <p class="dropdown-item" routerLink="soporte">
+                                    SOPORTE
+                                </p>
                                 <ul class="submenu dropdown-menu">
                                     <li>
                                         <a
@@ -185,8 +202,10 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">SECTORES</p>
+                            <li>
+                                <p class="dropdown-item" routerLink="sectores">
+                                    SECTORES
+                                </p>
                                 <ul class="submenu dropdown-menu">
                                     <li>
                                         <a
@@ -237,8 +256,11 @@
                             INTERNET Y MARKETING
                         </p>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">
+                            <li>
+                                <p
+                                    class="dropdown-item"
+                                    routerLink="desarrollo-medida"
+                                >
                                     DESARROLLO WEB A MEDIDA
                                 </p>
                                 <ul class="submenu dropdown-menu">
@@ -280,8 +302,13 @@
                                 </ul>
                             </li>
 
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">MARKETING ONLINE</p>
+                            <li>
+                                <p
+                                    class="dropdown-item"
+                                    routerLink="marketing-online"
+                                >
+                                    MARKETING ONLINE
+                                </p>
                                 <ul class="submenu dropdown-menu">
                                     <li>
                                         <a
@@ -324,10 +351,15 @@
                         >
                             SERVICIO TÉCNICO
                         </p>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">SERVICIO TÉCNICO</p>
-                                <ul class="submenu dropdown-menu">
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li>
+                                <p
+                                    class="dropdown-item"
+                                    routerLink="servicio-tecnico"
+                                >
+                                    SERVICIO TÉCNICO
+                                </p>
+                                <ul class="submenu submenu-left dropdown-menu">
                                     <li>
                                         <a
                                             class="dropdown-item"
@@ -358,9 +390,14 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">MANTENIMIENTO</p>
-                                <ul class="submenu dropdown-menu">
+                            <li>
+                                <p
+                                    class="dropdown-item"
+                                    routerLink="mantenimiento"
+                                >
+                                    MANTENIMIENTO
+                                </p>
+                                <ul class="submenu submenu-left dropdown-menu">
                                     <li>
                                         <a
                                             class="dropdown-item"
@@ -377,11 +414,14 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown-item">
-                                <p class="dropdown-item">
+                            <li>
+                                <p
+                                    class="dropdown-item"
+                                    routerLink="seguridad-informatica"
+                                >
                                     SEGURIDAD INFORMÁTICA
                                 </p>
-                                <ul class="submenu dropdown-menu">
+                                <ul class="submenu submenu-left dropdown-menu">
                                     <li>
                                         <a
                                             class="dropdown-item"
