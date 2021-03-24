@@ -42,7 +42,7 @@
         display: block;
     }
 }
-.nav-link {
+/* .nav-link {
     color: var(--azul1);
 }
 a {
@@ -50,7 +50,7 @@ a {
 }
 a:hover {
     color: var(--azul3);
-}
+} */
 p,
 li,
 a,
