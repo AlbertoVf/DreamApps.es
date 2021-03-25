@@ -1,21 +1,15 @@
-<div class="card-deck my-5 mx-auto w-100">
+<div class="card-deck my-5 mx-5">
     <div
-        class="card rounded-lg borde col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4"
+        class="card rounded-lg borde col-sm-12 col-md-12 col-lg-4 col-xl-4 p-0"
         *ngFor="let item of items"
     >
-        <img
-            [src]="item.imagen"
-            class="card-img-top w-100 m-0"
-            [alt]="item.titulo"
-        />
+        <img [src]="item.imagen" class="card-img-top" [alt]="item.titulo" />
         <div class="card-body">
-            <h2
-                class="card-title h1 mx-1 pb-2 text-wrap normal c-azul1 montserrat"
-            >
+            <p class="card-title h5 text-wrap normal c-azul1 montserrat">
                 {{ item.titulo }}
-            </h2>
+            </p>
             <p
-                class="card-text h5 my-sm-5 my-md-5 my-xl-2 my-lg-2 text-wrap fine montserrat c-azul2"
+                class="card-text h6 my-sm-5 my-md-5 my-xl-2 my-lg-2 text-wrap fine montserrat c-azul2"
                 *ngFor="let p of item.parrafos"
             >
                 {{ p }}

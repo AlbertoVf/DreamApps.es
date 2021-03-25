@@ -48,3 +48,12 @@ p.dropdown-item {
 a {
     font-weight: 500;
 }
+
+button,
+span {
+    color: var(--azul4) !important;
+}
+nav {
+    position: absolute;
+    left: 15%;
+}
