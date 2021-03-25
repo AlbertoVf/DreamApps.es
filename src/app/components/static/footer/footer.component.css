@@ -9,6 +9,3 @@ a {
     border-right: 2px solid var(--azul2);
     border-left: 2px solid var(--azul2);
 }
-footer {
-    background-color: var(--gris);
-}
