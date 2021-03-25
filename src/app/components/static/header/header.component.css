@@ -1,16 +1,3 @@
-#header {
-    position: relative;
-    width: 100%;
-    background-color: var(--blanco);
-    margin: 0;
-    float: center;
-}
-
-.navbar {
-    margin-bottom: 0px !important;
-    width: 100%;
-}
-
 @media (min-width: 992px) {
     .dropdown-menu .dropdown-toggle:after {
         border-top: 0.3em solid transparent;
@@ -42,21 +29,15 @@
         display: block;
     }
 }
-/* .nav-link {
-    color: var(--azul1);
+a:hover,
+p:hover {
+    color: var(--azul2) !important;
 }
-a {
-    color: var(--azul1);
-}
-a:hover {
-    color: var(--azul3);
-} */
 p,
 li,
 a,
 ul {
-    font-family: "montserrat";
-    text-align: center;
+    color: var(--azul1) !important;
 }
 p.dropdown-toggle {
     font-weight: 700;
