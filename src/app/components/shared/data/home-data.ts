@@ -2,10 +2,29 @@ import { IHome } from './interfaces';
 
 export var itemsHome: IHome[] = [
     {
-        titulo: 'Empresa',
+        imagen: './assets/img/banner/soluciones2.jpg',
+        clases: 'col-4 col-sm-12 col-md-6 col-lg-4 col-xl-4',
+        titulo: 'Soluciones',
         parrafos: [
-            'Empresa de informática Dreamapp, somos una empresa formada por un equipo de profesionales, dispuesto a afrontar las necesidades que las nuevas tecnologías requieren, ofreciendo servicios informáticos, tanto a empresas como a particulares, de diseño web, marketing online, desarrollo de software, consultoría, hosting y dominios, diseño gráfico y servicio técnico.Dreamapp dispone de diversas unidades de negocio ampliamente especializadas en ofrecer soluciones y servicios informáticos eficientes en su correspondiente área de trabajo.',
-            'Ofrece, además, la posibilidad de un servicio integral, en lo que a Tecnologías de la Información se refiere, desde el diseño del plan de sistemas de información hasta la implantación y mantenimiento de los mismos, para que cualquier empresa u organización pueda contar con la solución informática adecuada y óptima en todo momento, y en línea con sus objetivos.Con la implantación de nuestras soluciones tecnológicas en su empresa, tenemos como objetivos principales Minimizar los Costes, Aumentar la Productividad, Mejorar la Calidad de sus productos, Aumentar el Control sobre su empresa e Incrementar sus Ventas a través de nuevos canales como Internet.',
+            'En DreamApp pensamos que la informática «ha de estar a nuestro servicio», hacemos que su inversión en materia informática se transforme en beneficios para su actividad para que pueda centrarse al 100% en su negocio. Para ello buscamos soluciones adaptadas a las particularidades de cada tipo de negocio y de cliente. Para ello es imprescindible un análisis completo de cada paso para que la integración con sus necesidades actuales y futuras sea satisfactoria.',
+        ],
+    },
+
+    {
+        imagen: './assets/img/banner/internet-marketing2.jpg',
+        clases: ' col-4 col-md-6 col-lg-4 col-xl-4',
+        titulo: 'Internet y Marketing',
+        parrafos: [
+            'Entendemos la necesidad que supone para las empresas controlar y cuidar la presencia en internet, es allí donde está el público, allí donde opinan/recomiendan y allí adonde acceden desde cualquier lugar a golpe de teléfono móvil u ordenador. Por eso, en DreamsApp analizaremos el target de público al que quiere dirigir los esfuerzos publicitarios de su marca en internet atendiendo a los distintos objetivos que persiga.',
+        ],
+    },
+
+    {
+        imagen: './assets/img/banner/servicio-tecnico2.jpg',
+        clases: 'col-4 col-md-6 col-lg-4 col-xl-4',
+        titulo: 'Servicio Técnico',
+        parrafos: [
+            'Tener la equipación informática a punto es fundamental para un buen funcionamiento de su empresa. Por eso DreamApp le ofrece un servicio de asistencia técnica para todo tipo de instalaciones informáticas, garantizando un tiempo de respuesta récord y revisiones periódicas. Además, contará con soporte técnico urgente ante caídas del sistema, optimizaciones del sistema operativo, desinfección eficiente y profesional de virus, instalación de dispositivos, configuraciones del sistema, etc...',
         ],
     },
 ];
