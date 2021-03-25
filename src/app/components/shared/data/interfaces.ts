@@ -1,6 +1,5 @@
 export interface IHome {
     imagen: String;
-    clases: String;
     titulo: String;
     parrafos: String[];
 }

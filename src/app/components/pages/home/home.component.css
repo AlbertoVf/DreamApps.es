@@ -9,7 +9,7 @@
     border: 1px solid var(--azul4);
 }
 
-article img {
+article img.total {
     width: 100%;
     height: 25rem;
 }
