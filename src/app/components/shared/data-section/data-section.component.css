@@ -5,3 +5,7 @@
 .card {
     border: 1px solid var(--azul4);
 }
+
+.borde {
+    border: 1px solid var(--azul4);
+}
