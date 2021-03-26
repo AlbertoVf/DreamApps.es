@@ -1,11 +1,7 @@
 <div class="h-50 w-75 card mx-auto my-5" *ngFor="let item of items">
     <div class="row no-gutters" [id]="item.id">
         <div class="col-md-4 px-auto py-2">
-            <img
-                [src]="item.imagen"
-                [alt]="item.titulo"
-                onerror="this.src='./assets/img/items/error2.png';"
-            />
+            <img class="img-fluid" [src]="item.imagen" [alt]="item.titulo" />
         </div>
         <div class="col-md-8">
             <div class="card-body">
